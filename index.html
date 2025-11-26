@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>eManuntung - Portal Kepegawaian</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo_kota.png" rel="icon">
+  <link href="assets/img/logo_kota.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@300;600&family=Raleway:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Fix tambahan -->
+  <style>
+    /* Ruang pesan sukses agar tombol tidak bergeser */
+    .contact .php-email-form .sent-message {
+      display: block !important;
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity .25s ease-in-out;
+      margin-bottom: 12px;
+    }
+
+    .contact .php-email-form .sent-message.show {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    /* Pastikan alamat di Contact selalu terlihat */
+    .contact .info-item p {
+      color: #000 !important;
+      display: block !important;
+      opacity: 1 !important;
+      visibility: visible !important;
+    }
+
+    /* Naikkan teks hero agar tidak terlalu kosong di atas */
+    #hero {
+      padding-top: 40px !important;
+    }
+
+    #hero h2 {
+      margin-top: 0 !important;
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl d-flex align-items-center">
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <img src="assets/img/logo_kota.png" alt="Logo Kota Balikpapan">
+        <div>
+          <h1 class="sitename m-0">eManuntung</h1>
+          <small class="text-muted" style="font-size: 13px;">Pemerintah Kota Balikpapan</small>
+        </div>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#gallery">Smartphone</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      <a class="btn-getstarted"
+        href="https://play.google.com/store/apps/details?id=com.emanuntung.balikpapan" target="_blank"
+        rel="noopener noreferrer">Get Started</a>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="hero section">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-lg-last hero-img" data-aos="zoom-out">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          </div>
+          <div class="col-lg-6 d-flex flex-column justify-content-center text-center text-md-start"
+            data-aos="fade-in">
+            <h2>eManuntung</h2>
+            <p>Aplikasi Portal Layanan Kepegawaian sebagai Portal Integrasi Aplikasi Penunjang Kerja dan Layanan
+              Kepegawaian di Lingkungan Pemerintah Kota Balikpapan.</p>
+            <div class="d-flex mt-4 justify-content-center justify-content-md-start">
+              <a href="https://play.google.com/store/apps/details?id=com.emanuntung.balikpapan" target="_blank"
+                class="btn btn-light btn-lg">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                  alt="Google Play" style="height: 40px;">
+              </a>
+              <a href="https://apps.apple.com/id/app/emanuntung/id6740224483?l=id" target="_blank"
+                class="btn btn-light btn-lg">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                  alt="App Store" style="height: 40px;">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features section">
+      <div class="container section-title text-center" data-aos="fade-up">
+        <h2>Features</h2>
+      </div>
+
+      <div class="container">
+        <div class="col-xl-8 mx-auto" data-aos="fade-up" data-aos-delay="200">
+          <div class="row align-self-center gy-4 justify-content-center">
+
+            <div class="col-md-6">
+              <div class="feature-card text-center">
+                <div class="feature-icon"><i class="bi bi-eye"></i></div>
+                <div class="feature-title">eKinerja</div>
+                <div class="feature-desc">Integrasi Aplikasi Pelaporan Kinerja ASN.</div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="feature-card text-center">
+                <div class="feature-icon"><i class="bi bi-layers"></i></div>
+                <div class="feature-title">eOffice</div>
+                <div class="feature-desc">Integrasi Aplikasi Persuratan Dinamis.</div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="feature-card text-center">
+                <div class="feature-icon"><i class="bi bi-pencil-square"></i></div>
+                <div class="feature-title">Presensi Kehadiran</div>
+                <div class="feature-desc">Integrasi Presensi Online berbasis Perangkat GPS Mobile.</div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="feature-card text-center">
+                <div class="feature-icon"><i class="bi bi-shield"></i></div>
+                <div class="feature-title">Presensi Kegiatan</div>
+                <div class="feature-desc">Integrasi Presensi Kegiatan, Rapat atau Event berbasis Perangkat GPS Mobile.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="feature-card text-center">
+                <div class="feature-icon"><i class="bi bi-cloud"></i></div>
+                <div class="feature-title">eMail Kota</div>
+                <div class="feature-desc">Integrasi Akses Akun eMail Pemerintah Kota Balikpapan.</div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="feature-card text-center">
+                <div class="feature-icon"><i class="bi bi-phone"></i></div>
+                <div class="feature-title">Simpeg</div>
+                <div class="feature-desc">Integrasi Data Sistem Informasi Kepegawaian milik BKPSDM.</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Smartphone Section ======= -->
+    <section id="gallery" class="gallery section">
+      <div class="container section-title">
+        <h2>Smartphone</h2>
+      </div>
+      <div class="container-fluid">
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": { "delay": 5000 },
+              "slidesPerView": "auto",
+              "centeredSlides": true,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": { "slidesPerView": 1, "spaceBetween": 0 },
+                "768": { "slidesPerView": 3, "spaceBetween": 30 },
+                "992": { "slidesPerView": 5, "spaceBetween": 30 },
+                "1200": { "slidesPerView": 7, "spaceBetween": 30 }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a class="glightbox" href="assets/img/app-gallery/WhatsApp Image 2025-07-28 at 11.26.13.jpeg"><img
+                  src="assets/img/app-gallery/WhatsApp Image 2025-07-28 at 11.26.13.jpeg" class="img-fluid" alt=""></a></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section contact-section">
+      <div class="container section-title" data-aos-once="true">
+        <h2>Contact</h2>
+        <p>Hubungi Kami</p>
+      </div>
+
+      <div class="container" data-aos-once="true">
+        <div class="row gy-4">
+
+          <!-- Contact Info -->
+          <div class="col-lg-4 d-flex flex-column justify-content-center">
+
+            <!-- Address -->
+            <div class="info-item d-flex align-items-start mb-4" data-aos="fade-up" data-aos-once="true">
+              <i class="bi bi-geo-alt flex-shrink-0" style="font-size: 24px; margin-right: 12px;"></i>
+              <div>
+                <h3 class="mb-1">Alamat</h3>
+                <p class="mb-0">JL. Jendral Sudirman No.1 RT.13, Kota Balikpapan</p>
+              </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="info-item d-flex align-items-start mb-4" data-aos="fade-up" data-aos-once="true"
+              data-aos-delay="100">
+              <i class="bi bi-telephone flex-shrink-0" style="font-size: 24px; margin-right: 12px;"></i>
+              <div>
+                <h3 class="mb-1">Call Us</h3>
+                <p class="mb-0">0542-421500, 421600, 743115</p>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="info-item d-flex align-items-start" data-aos="fade-up" data-aos-once="true" data-aos-delay="200">
+              <i class="bi bi-envelope flex-shrink-0" style="font-size: 24px; margin-right: 12px;"></i>
+              <div>
+                <h3 class="mb-1">Email Us</h3>
+                <p class="mb-0">admin@balikpapan.go.id</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="col-lg-8">
+            <form id="contactForm" class="php-email-form" novalidate>
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+
+                <div class="col-md-6">
+                  <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" name="kendala" class="form-control" placeholder="Kendala" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea name="message" rows="6" class="form-control" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Script tambahan untuk form -->
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      const msg = this.querySelector('.sent-message');
+      msg.classList.add('show');
+      setTimeout(() => {
+        msg.classList.remove('show');
+      }, 5000);
+      this.reset();
+    });
+  </script>
+
+</body>
+
+</html>
